@@ -1,3 +1,0 @@
-/* Quotes page: two-column quote wall */
-.grid{grid-template-columns:repeat(auto-fill,minmax(340px,1fr))}
-.quote p{font-size:1.4rem}
