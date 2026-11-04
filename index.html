@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Hawa &amp; Ink | Poetry, Quotes and Poets</title>
+    <meta
+      name="description"
+      content="Read short original poems, collect memorable quotes and meet the poets behind them."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,400&family=DM+Sans:wght@400;500;700&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap"
+    />
+    <link rel="stylesheet" href="assets/styling/style.css" />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg">
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body data-root="" data-page="home">
+    <div id="prog"></div>
+    <header id="site-header"></header>
+    <main>
+      <section class="hero">
+        <div class="wrap">
+          <div>
+            <h1>Where silence <em>learns</em> to speak.</h1>
+            <div class="ur" lang="ur">خاموشی لفظوں میں سانس لیتی ہے</div>
+            <p class="lead">
+              A quiet home for new poems, memorable lines and the poets who
+              write them. Read, save and share in a few taps.
+            </p>
+            <a class="btn" href="pages/poetry/poetry.html">Start reading</a
+            ><a class="btn ghost" href="pages/poets/poets.html"
+              >Meet the poets</a
+            ><a class="btn ghost" href="pages/signup/signup.html">Join free</a>
+          </div>
+          <div class="stage" id="stage" aria-live="polite"></div>
+        </div>
+      </section>
+      <div class="ribbon" aria-hidden="true"><div id="ribbon"></div></div>
+      <div class="stats" id="stats"></div>
+      <div class="wrap">
+        <div class="sec">
+          <h2>Latest poems</h2>
+          <a href="pages/poetry/poetry.html">View all →</a>
+        </div>
+        <div class="grid" id="home-poems"></div>
+        <div class="sec">
+          <h2>Quote of the day</h2>
+          <a href="pages/quotes/quotes.html">View all →</a>
+        </div>
+        <div style="max-width: 720px" id="home-quote"></div>
+        <button class="btn line" data-act="rquote" style="margin-top: 18px">
+          Another quote
+        </button>
+        <div class="sec">
+          <h2>Explore by theme</h2>
+          <a href="pages/categories/categories.html">View all →</a>
+        </div>
+        <div class="grid" id="home-cats"></div>
+        <div class="sec">
+          <h2>Featured poets</h2>
+          <a href="pages/poets/poets.html">View all →</a>
+        </div>
+        <div class="grid" id="home-poets"></div>
+        <div class="prompt" style="margin-top: 72px">
+          <h2>This week’s prompt: write about a doorway you pass every day.</h2>
+          <p class="meta">
+            Four lines are enough. Join free, write it and keep it with your
+            account.
+          </p>
+          <a
+            class="btn"
+            style="width: fit-content; margin: 8px 0 0"
+            href="pages/signup/signup.html"
+            >Join free</a
+          >
+        </div>
+        <div class="sec">
+          <h2>From the journal</h2>
+          <a href="pages/journal/journal.html">View all →</a>
+        </div>
+        <div class="grid" id="home-journal"></div>
+        <div class="news">
+          <h2>One new poem, every Friday.</h2>
+          <div class="f">
+            <input
+              id="em"
+              type="email"
+              placeholder="Your email"
+              aria-label="Email"
+            /><button class="btn" data-act="news">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="site-footer"></footer>
+  </body>
+</html>
