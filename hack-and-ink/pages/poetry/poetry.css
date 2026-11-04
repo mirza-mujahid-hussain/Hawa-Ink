@@ -1,0 +1,5 @@
+/* Poetry page: search, sort and theme chips */
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:6px 16px;cursor:pointer;font-weight:500;font-size:.88rem}
+.chip.on{background:var(--deep);border-color:var(--deep);color:var(--on-deep)}
+.chip.on{background:linear-gradient(135deg,#0e3a32,#061f1a);border-color:var(--gold);color:var(--gold2)}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sign in | Hawa &amp; Ink</title>
+<meta name="description" content="Sign in to your Hawa & Ink reading list.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,400&family=DM+Sans:wght@400;500;700&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap">
+<link rel="stylesheet" href="../../assets/styling/style.css">
+<link rel="stylesheet" href="signin.css">
+<script src="../../assets/js/main.js" defer></script>
+<script src="signin.js" defer></script>
+</head>
+<body data-root="../../" data-page="signin">
+<div id="prog"></div>
+<header id="site-header"></header>
+<main>
+
+<div class="auth"><div class="side"><p>Poems are better when someone is there to read them with you.</p><ul class="perks"><li>Save poems to your own reading list</li><li>Listen to any poem read aloud</li><li>Write and keep your own verses</li></ul></div>
+<div class="fs"><form class="box" id="signin-form" novalidate>
+<h1>Welcome back</h1><p class="meta" style="margin-bottom:28px">Sign in to open your reading list.</p>
+<div class="field"><label for="le">Email</label><input id="le" type="email" autocomplete="email"></div>
+<div class="field"><label for="lp">Password</label><input id="lp" type="password" autocomplete="current-password"></div>
+<div id="err" role="alert"></div>
+<button class="btn" style="margin:0;width:100%;justify-content:center" type="submit">Sign in</button>
+<p class="meta" style="margin-top:20px">New here? <a href="../signup/signup.html" style="color:var(--accent);font-weight:700">Create a free account</a></p>
+<p class="meta" style="margin-top:18px">Demo account: details stay in this browser only.</p>
+</form></div></div>
+</main>
+<footer id="site-footer"></footer>
+</body>
+</html>
